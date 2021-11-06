@@ -87,7 +87,7 @@ class HomeController extends Controller
 
 
 
-              return view('points')->with([
+              return view('time')->with([
 
             'users' => $users,
 
